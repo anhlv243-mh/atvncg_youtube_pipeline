@@ -1,0 +1,21 @@
+# Môi trường ảo
+venv/
+.venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Secrets — TUYỆT ĐỐI không commit
+.env
+key.json
+*.json.key
+service-account*.json
+
+# Dữ liệu sinh ra khi chạy
+data/
+logs/
+
+# Khác
+.ipynb_checkpoints/
+.DS_Store
